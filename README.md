@@ -53,7 +53,7 @@ update(condition, multiple, callback)
 
 
 # Installation
-
+- npm i simplemongojs
 
 
 # License
