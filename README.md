@@ -48,11 +48,15 @@ function(err, data){
 
 **
 
--the other functions are 
--createUnique(name,uniqueField)
--find(name,condition, callback);
--delete(name,condition, multiple, callback);
--update(name,condition, multiple, callback)
+- the other functions are 
+
+- createUnique(name,uniqueField)
+
+- find(name,condition, callback)
+
+- delete(name,condition, multiple, callback);
+
+- update(name,condition, multiple, callback)
 
 **Condition is also of the object type so a condition like {name: kofi} will update all records with the name kofi** **if multiple is set to true and just one if multiple is set to false**
 **name refers to the collection name**
