@@ -19,7 +19,7 @@
 
 **Example**
 - const {DB} from 'package'
-- DB.insert(data, multiple, callback)
+- DB.insert(collectionName,data, multiple, callback)
 
 **Your data is of the type object as mongodb works with key: value data, so for example** 
 
@@ -45,11 +45,11 @@ function(err, data){
 **
 
 the other functions are 
-find(condition, callback);
-delete(condition, multiple, callback);
-update(condition, multiple, callback)
+find(name,condition, callback);
+delete(name,condition, multiple, callback);
+update(name,condition, multiple, callback)
 
-**Condition is also of the object type so a condition like {name: kofi} will update all records with the name kofi if multiple is set to true and just one if multiple is set to false**
+**Condition is also of the object type so a condition like {name: kofi} will update all records with the name kofi if multiple is set to true and just one if multiple is set to false, name refers to the collection name**
 
 
 # Installation

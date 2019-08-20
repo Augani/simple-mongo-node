@@ -1,6 +1,6 @@
 {
   "name": "simplemongojs",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "A simple package that will help you run your app with mongodb as easy as possible",
   "main": "./lib/index.js",
   "scripts": {
